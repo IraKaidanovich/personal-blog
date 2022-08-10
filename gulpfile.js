@@ -2,6 +2,7 @@ const fileinclude = require('gulp-file-include');
 const gulp = require('gulp');
 const del = require('del');
 
+function defaultTask(cb) {
 gulp.task('html', () => {
   return gulp.src(['./src/pages/**/*.html'])
     .pipe(fileinclude({
@@ -35,3 +36,7 @@ gulp.task('watch', () => {
 })
 
 gulp.task('start', gulp.series(['clean', 'html', 'css', 'js', 'watch']))
+cb();
+}
+
+exports.default = defaultTask
