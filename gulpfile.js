@@ -2,7 +2,7 @@ const fileinclude = require('gulp-file-include');
 const gulp = require('gulp');
 const del = require('del');
 
-function defaultTask(cb) {
+
 gulp.task('html', () => {
   return gulp.src(['./src/pages/**/*.html'])
     .pipe(fileinclude({
@@ -22,6 +22,11 @@ gulp.task('js', () => {
     .pipe(gulp.dest('./dist/js'))
 })
 
+gulp.task('images', () => {
+  return gulp.src(['./src/img/**/*.*'])
+    .pipe(gulp.dest('./dist/img'))
+});
+
 gulp.task('clean', () => {
   return del('./dist');
 })
@@ -33,10 +38,9 @@ gulp.task('watch', () => {
   gulp.watch('./src/css/**/*.css', gulp.series('css'))
 
   gulp.watch('./src/js/**/*.js', gulp.series('js'))
+
+  gulp.watch('./src/img/**/*.*', gulp.series('images'))
 })
 
-gulp.task('start', gulp.series(['clean', 'html', 'css', 'js', 'watch']))
-cb();
-}
-
-exports.default = defaultTask
+gulp.task('start', gulp.series(['clean', 'html', 'css', 'js', 'images', 'watch']))
+gulp.task('default', gulp.series(['start']));
