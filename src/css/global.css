@@ -1,3 +1,12 @@
-body {
+*:before, *:after, * {
+  box-sizing: border-box;
+}
+
+body, html {
   margin: 0px;
+  font-family: Roboto;
+}
+
+p {
+  margin: 0;
 }

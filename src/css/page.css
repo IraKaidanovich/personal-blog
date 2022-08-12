@@ -1,0 +1,14 @@
+.page {
+  background: blue;
+  min-height: 100vh;
+  display: flex;
+}
+
+.page__sidebar {
+  width: 300px;
+  display: flex;
+}
+
+.page__content {
+
+}

@@ -1,13 +1,12 @@
-const fileinclude = require('gulp-file-include');
+const htmlPartial = require('gulp-html-partial');
 const gulp = require('gulp');
 const del = require('del');
 
 
 gulp.task('html', () => {
   return gulp.src(['./src/pages/**/*.html'])
-    .pipe(fileinclude({
-      prefix: '@@',
-      basepath: './src'
+    .pipe(htmlPartial({
+      basePath: 'src/partials/'
     }))
     .pipe(gulp.dest('./dist'))
 });

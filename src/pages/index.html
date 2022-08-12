@@ -1,5 +1,11 @@
-@@include('partials/head.html', { title: 'Home' })
+<partial src="head.html" title="Home page" />
 
-Home
+<div class="page">
+  <div class="page__sidebar">
+    <partial src="sidebar.html" />
+  </div>
 
-@@include('partials/end.html')
+  <div class="page__content">Content</div>
+</div>
+
+<partial src="end.html" />
