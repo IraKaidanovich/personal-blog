@@ -1,14 +1,21 @@
 .page {
-  background: blue;
-  min-height: 100vh;
-  display: flex;
+  display:flex;
+  background-color:  rgb(23, 23, 23);
 }
 
 .page__sidebar {
   width: 300px;
-  display: flex;
 }
 
-.page__content {
 
+
+.page__main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.page__header {
+  background-color: rgba(13, 13, 13, 1);
 }

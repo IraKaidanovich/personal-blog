@@ -1,0 +1,17 @@
+.header-search {
+  display: flex;
+  background: #202020;
+  box-shadow: -7px 1px 10px rgba(0, 0, 0, 0.3);
+  width: 212px;
+  height: 40px;
+  align-items: center;
+}
+
+.header-search__text {
+  color:rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  margin-left: 20px;
+}
