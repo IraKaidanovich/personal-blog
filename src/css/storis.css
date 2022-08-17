@@ -1,0 +1,47 @@
+.storis__items {
+  display: flex;
+  padding: 60px 50px 30px;
+}
+
+.storis__item {
+  display: flex;
+  border: 3px;
+  border-radius: 5px;  
+  width: 140px;
+  height: 195px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 7px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.storis__item img {
+  width: auto;
+  height: 195px;
+  position: absolute;
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+.storis__item-text {
+  position: absolute;
+  color: #ffffff;
+  width: 110px;
+  padding: 6px 0;
+  margin: 14px 14px;
+}
+
+.storis__item-date {
+  position: relative;
+  margin-top: auto;
+  margin-left: auto;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+}
+
+.storis__item-one, .storis__item-two {
+  filter: brightness(90%);
+}
