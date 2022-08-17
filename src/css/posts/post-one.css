@@ -1,0 +1,16 @@
+.posts__post-one {
+  height: 161px;
+  align-items: center;
+  margin: 30px 50px;
+}
+
+.post-text-one {
+  position: absolute;
+  height: 92px;
+  width: 545px;
+  margin: 25px 27.78px 44px;
+} 
+
+.post-date-one {
+  padding: 5px 27.78px 25px;
+}
