@@ -7,12 +7,14 @@
   width: 300px;
 }
 
-
+.page__add-post {
+  padding: 0 50px;
+}
 
 .page__main {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: calc(100% - 300px);
   min-height: 100vh;
 }
 

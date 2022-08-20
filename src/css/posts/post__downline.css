@@ -1,0 +1,42 @@
+.post__downline {
+  display: flex;
+  align-items: center;
+  padding: 5px 27.78px 25px;
+}
+
+.post__downline-creatimg-sides {
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+  width: 120px;
+  height: 14px;
+}
+
+.post__downline-read-more {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  color: #107EFF;
+  margin-left: auto;
+}
+
+.post__downline-point {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: #C4C4C4;
+  margin: 0 15px;
+}
+
+.post__downline-date {
+  font-family: 'Lato';
+  font-size: 14.5px;
+  line-height: 14px;
+  color: #828282;
+  position: relative;
+  margin-top: auto;
+}

@@ -2,7 +2,7 @@
   display: inline-flex;
   flex-direction: column;
   background-color: #202020;
-  height: 100vh;
+  height: 100%;
   width: 300px;
   box-shadow: 5px 0px 15px rgba(5, 5, 5, 0.1);
 }
