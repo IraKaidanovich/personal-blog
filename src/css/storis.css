@@ -1,12 +1,13 @@
 .storis__items {
   display: flex;
-  padding: 60px 50px 30px;
+  overflow: hidden;
+  padding: 60px 0px 30px;
 }
 
 .storis__item {
   border: 3px;
   border-radius: 5px;  
-  width: 140px;
+  min-width: 140px;
   height: 195px;
   overflow: hidden;
   position: relative;
@@ -46,4 +47,14 @@
 
 .storis__item-one, .storis__item-two {
   filter: brightness(90%);
+}
+
+@media (max-width: 850px) {
+  .storis__items {
+    flex-wrap: nowrap;
+  }
+
+  .storis__item {
+    width: 140px;
+  }
 }
