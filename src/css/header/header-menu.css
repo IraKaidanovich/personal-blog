@@ -1,9 +1,14 @@
 .header-menu {
   background-color: rgba(13, 13, 13, 1);
   height: 40px;
-  position: fixed;
   width: 100%;
   z-index: 1;
+}
+
+@media (max-width:750px) {
+  .header-menu {
+    position: fixed;
+  }
 }
 
 .header-menu__items {
@@ -73,7 +78,12 @@
   display: none;
 }
 
-.header-mobile-menu {
+.header-mobile-menu.active {
+  left: 0px;
+}
+
+
+.header-mobile-menu  {
   left: -300px;
   position: fixed;
   width: 300px;
@@ -82,10 +92,7 @@
   background-color: black;
   margin-top: 40px;
   z-index: 1;
-}
-
-.header-mobile-menu.active {
-  left: 0px;
+  
 }
 
 @media(max-width:750px) {
