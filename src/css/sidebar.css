@@ -5,6 +5,7 @@
   height: 100%;
   width: 300px;
   box-shadow: 5px 0px 15px rgba(5, 5, 5, 0.1);
+  position: fixed;
 }
 
 @media (max-width: 750px ) {
@@ -95,7 +96,7 @@
   justify-content: space-between;
 }
 
-.sidebar__button {
+.sidebar__button, .header-mobile-menu__button {
   width: 120px;
   height: 40px;
   border-radius: 25px;
@@ -108,19 +109,18 @@
   border: none;
 }
 
-.sidebar__button--portfolio {
+.sidebar__button--portfolio, .header-mobile-menu--portfolio {
   background-color: rgba(237, 48, 36, 1);
 }
 
-.sidebar__button--portfolio:hover {
+.sidebar__button--portfolio:hover, .header-mobile-menu--portfolio:hover {
   background: rgba(237, 48, 36, 0.7);
 }
 
-.sidebar__button--contact-me {
+.sidebar__button--contact-me, .header-mobile-menu--contact-me {
   background-color: rgba(49, 55, 201, 1);
 }
 
-.sidebar__button--contact-me:hover {
+.sidebar__button--contact-me:hover, .header-mobile-menu--contact-me:hover {
   background-color: rgba(49, 55, 201, 0.7);
 }
-

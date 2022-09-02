@@ -1,0 +1,90 @@
+.contact-mobal.open {
+  z-index: 2;
+  background-color: rgba(42, 43, 43, 0.574);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-mobal {
+  display: none;
+}
+
+
+.contact-mobal__body {
+  display: flex;
+  flex-direction: column;
+  background: rgba(32, 32, 32, 1);
+  width: 500px;
+  height: 342px;
+}
+
+.contact-mobal__content {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.contact-mobal__close {
+  position: relative;
+  padding: 20px 20px 0 0;
+  margin-left: auto;
+}
+
+.contact-mobal__name p {
+  color: rgb(255, 255, 255);
+}
+
+hr {
+  border: 1px solid rgba(63, 63, 63, 1); 
+  margin-top: 9px;
+  margin-bottom: 0;
+}
+
+ hr:hover {
+  border: 1px solid rgb(93, 34, 211); 
+ }
+
+p {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.2);
+  margin: 0;
+  margin-top: 25px;
+}
+
+.button {
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: rgba(49, 55, 201, 1);
+  border: none;
+  box-shadow: 0px 4px 15px -7px rgba(48, 55, 201, 0.3);
+  margin-top: 25px;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 8px 15px;
+}
+
+.contact-mobal__contact-information {
+  margin: 40px 0 25px ;
+  font-size: 12px;
+  line-height: 16px;
+  color: #B3B3B3;
+  display: flex;
+}
+
+.text1 {
+  margin-right: 10px;
+}
