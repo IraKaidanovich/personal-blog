@@ -39,6 +39,7 @@ document.addEventListener('click', (event) => {
   if (targetEl.closest('.header-mobile-menu--contact-me') || targetEl.classList.contains('header-mobile-menu--contact-me')) return; 
   if (targetEl.closest('.contact-mobal__body') || targetEl.classList.contains('contact-mobal__body')) return; 
 
+  //storis video
   if (targetEl.closest('.storis__video-content') || targetEl.classList.contains('storis__video-content')) return; 
   if (targetEl.closest('.storis__items') || targetEl.classList.contains('storis__items')) return; 
 
@@ -49,6 +50,7 @@ document.addEventListener('click', (event) => {
   //contact modal 
   contactMobal.classList.remove('open');
 
+  //storis video
   showStoris.classList.remove('show');
   
 })
