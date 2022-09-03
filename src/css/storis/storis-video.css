@@ -1,5 +1,5 @@
 .storis__video.show {
-  background-color: rgba(0, 0, 0, 0.433);
+  background-color: rgba(0, 0, 0, 0.816);
   width: 100%;
   height: 100%;
   z-index: 2;
@@ -13,22 +13,37 @@
   display: none;
 }
 
-.storis__video-cover img {
+@media(max-width:450px) {
+  .storis__video-cover {
+    height: 600px;
+  }
+
+  .storis__video-content {
+    width: 85%;
+    overflow: hidden;
+  }
+}
+
+.storis__video-cover  {
+  display: flex;
+  overflow: hidden;
   background-size: cover;
- 
+  background-position: center center;
+  height: 650px;
+
 }
 
 .storis__video-player-items {
   display: flex;
-  margin: 20px 19px;
+  margin: 0px 19px;
   position: relative;
-  bottom: 65px;
-}
-
- .storis__video-line img {
-  object-fit: none;
+  bottom: 45px;
 }
 
 .storis__video-player {
   margin-right: 28px ;
+}
+
+.storis__video-line img {
+  width: 100%;
 }
