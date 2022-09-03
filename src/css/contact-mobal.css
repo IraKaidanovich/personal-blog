@@ -88,3 +88,13 @@ p {
 .text1 {
   margin-right: 10px;
 }
+
+@media (max-width:750px) {
+  .contact-mobal__body {
+    width: calc(100% - 30px);
+  }
+
+  .contact-mobal__content {
+    width: calc(100% - 50px);
+  }
+}

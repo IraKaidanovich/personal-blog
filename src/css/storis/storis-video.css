@@ -1,0 +1,34 @@
+.storis__video.show {
+  background-color: rgba(0, 0, 0, 0.433);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.storis__video {
+  display: none;
+}
+
+.storis__video-cover img {
+  background-size: cover;
+ 
+}
+
+.storis__video-player-items {
+  display: flex;
+  margin: 20px 19px;
+  position: relative;
+  bottom: 65px;
+}
+
+ .storis__video-line img {
+  object-fit: none;
+}
+
+.storis__video-player {
+  margin-right: 28px ;
+}
