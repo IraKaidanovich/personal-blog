@@ -7,13 +7,18 @@
   align-items: center;
 }
 
-.header-search__text {
+.header-search__text-input {
   color:rgba(255, 255, 255, 0.4);
   font-size: 12px;
   font-weight: 400;
   line-height: 14px;
   letter-spacing: 0em;
-  margin-left: 20px;
+  margin:0 20px 0 20px;
+  border: none;
+  background-color: #cdd0d300;
+  cursor: pointer;
+  outline: none;
+  width: 100px;
 }
 
 @media(max-width:750px) {

@@ -7,12 +7,16 @@
   align-items: center;
 }
 
-.add-post__text {
-  font-weight: 400;
+.text__input {
   font-size: 15px;
   line-height: 18px;
   color: rgba(210, 210, 210, 1);
   padding: 28px;
+  border: none;
+  background-color: #cdd0d300;
+  cursor: pointer;
+  outline: none;
+  width: 500px;
 }
 
 @media(max-width:400px){
