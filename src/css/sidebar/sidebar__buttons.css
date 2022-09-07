@@ -1,0 +1,39 @@
+.sidebar__buttons {
+  display: flex;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 30px;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.sidebar__button {
+  width: 120px;
+  height: 40px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.2s background;
+  color: #fff;
+  border: none;
+}
+
+.sidebar__button--portfolio {
+  background-color: rgba(237, 48, 36, 1);
+}
+
+.sidebar__button--portfolio:hover {
+  background: rgba(237, 48, 36, 0.7);
+}
+
+.sidebar__button--contact-me {
+  background-color: rgba(49, 55, 201, 1);
+}
+
+.sidebar__button--contact-me:hover {
+  background-color: rgba(49, 55, 201, 0.7);
+}

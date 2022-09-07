@@ -1,0 +1,11 @@
+.sidebar__icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+}
+
+.sidebar__icons img {
+  width: 25px;
+  height: 25px;
+  margin: 0 7.5px;
+}
