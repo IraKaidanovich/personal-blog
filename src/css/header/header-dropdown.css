@@ -11,6 +11,12 @@
   z-index: 1;
 }
 
+.header-dropdown__items {
+  display: block;
+  padding-left: 12px;
+  padding-bottom: 12px;
+}
+
 .header-dropdown__item > a {
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -19,14 +25,4 @@
   font-size: 12px;
   line-height: 14px;
   padding-top: 10px;
-}
-
-.header-dropdown__item > a:hover {
-  background: rgba(113, 142, 172, 0.492);
-}
-
-.header-dropdown__items {
-  display: block;
-  padding-left: 12px;
-  padding-bottom: 12px;
 }

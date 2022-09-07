@@ -1,0 +1,13 @@
+.header-mobile-menu__photo {
+  width: 300px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.header-mobile-menu__photo img {
+  width: 300px;
+  transform: translate(0px, -45px);
+  width: 300px;
+  height: 180px;
+}
+

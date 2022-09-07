@@ -14,12 +14,12 @@
   }
 }
 
-.sidebar__photo img, .header-mobile-menu__photo img {
+.sidebar__photo img {
  width: 300px;
  height: 180px;
 }
 
-.sidebar__avatar, .header-mobile-menu__avatar {
+.sidebar__avatar {
   border: 2px solid #FFFFFF;
   box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.25);
   border-radius: 100%;  
@@ -31,7 +31,7 @@
   margin-top: -50px;
 }
 
-.sidebar__avatar img, .header-mobile-menu__avatar img {
+.sidebar__avatar img {
   position: absolute;
   left: 50%; /* +40px */
   top: 50%; /* +40px */
@@ -39,13 +39,13 @@
   width: 150px;
 }
 
-.sidebar__info, .header-mobile-menu__info {
+.sidebar__info {
   text-align: center;
   margin-top: 20px;
 }
 
 
-.sidebar__name, .header-mobile-menu__name {
+.sidebar__name {
   color: rgba(255, 255, 255, 1);
   font-style: normal;
   font-weight: 400;
@@ -53,7 +53,7 @@
   line-height: 21px;
 }
 
-.sidebar__about, .header-mobile-menu__about {
+.sidebar__about {
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -85,7 +85,7 @@
   border-bottom: 1px solid #1C1C1C;
 }
 
-.sidebar__buttons, .header-mobile-menu__buttons {
+.sidebar__buttons {
   display: flex;
   color: #FFFFFF;
   font-weight: 500;
@@ -96,7 +96,7 @@
   justify-content: space-between;
 }
 
-.sidebar__button, .header-mobile-menu__button {
+.sidebar__button {
   width: 120px;
   height: 40px;
   border-radius: 25px;
@@ -109,18 +109,18 @@
   border: none;
 }
 
-.sidebar__button--portfolio, .header-mobile-menu--portfolio {
+.sidebar__button--portfolio {
   background-color: rgba(237, 48, 36, 1);
 }
 
-.sidebar__button--portfolio:hover, .header-mobile-menu--portfolio:hover {
+.sidebar__button--portfolio:hover {
   background: rgba(237, 48, 36, 0.7);
 }
 
-.sidebar__button--contact-me, .header-mobile-menu--contact-me {
+.sidebar__button--contact-me {
   background-color: rgba(49, 55, 201, 1);
 }
 
-.sidebar__button--contact-me:hover, .header-mobile-menu--contact-me:hover {
+.sidebar__button--contact-me:hover {
   background-color: rgba(49, 55, 201, 0.7);
 }

@@ -1,0 +1,10 @@
+.header-menu__burger {
+  display: none;
+}
+
+@media(max-width:750px) {
+  .header-menu__burger {
+    display: block;
+    margin: 8px 15px;
+  }
+}
