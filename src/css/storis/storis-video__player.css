@@ -1,0 +1,14 @@
+.storis__video-player-items {
+  display: flex;
+  margin: 0px 19px;
+  position: relative;
+  bottom: 45px;
+}
+
+.storis__video__player {
+  margin-right: 28px ;
+}
+
+.storis__video__line img {
+  width: 100%;
+}

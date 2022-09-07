@@ -13,17 +13,6 @@
   display: none;
 }
 
-@media(max-width:450px) {
-  .storis__video-cover {
-    height: 600px;
-  }
-
-  .storis__video-content {
-    width: 85%;
-    overflow: hidden;
-  }
-}
-
 .storis__video-cover  {
   display: flex;
   overflow: hidden;
@@ -33,17 +22,13 @@
 
 }
 
-.storis__video-player-items {
-  display: flex;
-  margin: 0px 19px;
-  position: relative;
-  bottom: 45px;
-}
+@media(max-width:450px) {
+  .storis__video-cover {
+    height: 600px;
+  }
 
-.storis__video-player {
-  margin-right: 28px ;
-}
-
-.storis__video-line img {
-  width: 100%;
+  .storis__video-content {
+    width: 85%;
+    overflow: hidden;
+  }
 }
