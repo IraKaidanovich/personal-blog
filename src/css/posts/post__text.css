@@ -1,0 +1,18 @@
+.post__text {
+  color: rgba(210, 210, 210, 1);
+  font-size: 14px;
+  line-height: 21px;
+  height: auto;
+  width: auto;
+  margin: 0px 27.78px 5px;
+}
+
+.post__text-one {
+  margin-top: 25px;
+}
+
+@media (max-width:850px) {
+  .post__text {
+    margin: 0 15px 5px;
+  }
+}

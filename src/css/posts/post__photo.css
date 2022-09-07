@@ -1,0 +1,11 @@
+.post__photo {
+  display: flex;
+  overflow: hidden;
+  height: 270px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.post__photo-player {
+  margin: auto;
+ }

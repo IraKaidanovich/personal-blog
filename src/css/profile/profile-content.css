@@ -1,0 +1,23 @@
+.profile-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-content__headerline {
+  width: 90px;
+  height: 21px;
+  font-size: 21px;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin: 60px 0 60px;
+}
+
+.profile-content__fonctions {
+  display: flex;
+}
+
+@media(max-width:450px) {
+  .profile-content__fonctions {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,17 @@
+.photo-part__text {
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #107EFF;
+  margin-top: 15px;
+}
+
+.profile-content__photo-part {
+  margin-top: 10px;
+}
+
+@media(max-width:450px) {
+  .profile-content__photo-part {
+    margin-top: 60px;
+  }
+}

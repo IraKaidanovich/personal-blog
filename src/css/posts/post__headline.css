@@ -1,0 +1,13 @@
+.post__headline {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin: 25px 25px 17px ;
+}
+
+@media(max-width: 850px) {
+  .post__headline {
+    margin: 20px 15px 17px ;
+  }
+}
