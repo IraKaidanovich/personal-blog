@@ -36,6 +36,7 @@
   position: relative;
   padding: 20px 20px 0 0;
   margin-left: auto;
+  cursor: pointer;
 }
 
 .contact-mobal__name p {
@@ -57,6 +58,7 @@
   font-size: 12px;
   line-height: 14px;
   padding: 8px 15px;
+  cursor: pointer;
 }
 
 .contact-mobal__contact-information {

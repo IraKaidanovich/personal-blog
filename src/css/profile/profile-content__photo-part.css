@@ -4,6 +4,7 @@
   text-decoration-line: underline;
   color: #107EFF;
   margin-top: 15px;
+  cursor: pointer;
 }
 
 .profile-content__photo-part {

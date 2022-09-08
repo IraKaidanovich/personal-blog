@@ -5,13 +5,6 @@
   padding: 5px 27.78px 25px;
 }
 
-@media(max-width:850px) {
-  .post__downline {
-    padding: 0 15px 20px;
-  }
-}
-
-
 .post__downline-creatimg-sides {
   display: flex;
   font-family: 'Lato', sans-serif;
@@ -30,13 +23,7 @@
   text-align: right;
   color: #107EFF;
   margin-left: auto;
-}
-
-@media (max-width:420px) {
-  .post__downline-read-more {
-    margin-left: 0px;
-    padding-top: 15px;
-  }
+  cursor: pointer;
 }
 
 .post__downline-point {
@@ -55,3 +42,18 @@
   position: relative;
   margin-top: auto;
 }
+
+@media(max-width:850px) {
+  .post__downline {
+    padding: 0 15px 20px;
+  }
+}
+
+@media (max-width:420px) {
+  .post__downline-read-more {
+    margin-left: 0px;
+    padding-top: 15px;
+  }
+}
+
+

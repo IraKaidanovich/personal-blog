@@ -3,6 +3,7 @@
   margin: 0px 19px;
   position: relative;
   bottom: 45px;
+  cursor: pointer;
 }
 
 .storis__video__player {

@@ -20,6 +20,7 @@
   transition: 0.2s background;
   color: #fff;
   border: none;
+  cursor: pointer;
 }
 
 .sidebar__button--portfolio {

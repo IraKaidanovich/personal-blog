@@ -8,4 +8,5 @@
 
 .post__photo-player {
   margin: auto;
+  cursor: pointer;
  }

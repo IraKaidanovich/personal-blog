@@ -5,6 +5,7 @@
 body, html {
   margin: 0px;
   font-family: Roboto;
+  width: 100%;
 }
 
 hr {

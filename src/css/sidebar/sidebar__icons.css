@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   margin-top: 17px;
+  cursor: pointer;
 }
 
 .sidebar__icons img {
