@@ -4,9 +4,9 @@ const contactSidebarEl = document.querySelector('.sidebar__button--contact-me');
 const contactHeaderMobileMenuEl = document.querySelector('.header-mobile-menu--contact-me');
 const finishEl = document.querySelector('.contact-mobal__close');
 
-contactSidebarEl.onclick = () => contactMobalEl.classList.toggle('open');
-contactHeaderMobileMenuEl.onclick = () => contactMobalEl.classList.toggle('open');
-finishEl.onclick = () => contactMobalEl.classList.remove('open');
+contactSidebarEl.onclick = () => contactMobalEl.classList.toggle('is-open');
+contactHeaderMobileMenuEl.onclick = () => contactMobalEl.classList.toggle('is-open');
+finishEl.onclick = () => contactMobalEl.classList.remove('is-open');
 
 document.addEventListener('click', (event) => {
   const targetEl = event.target; 
@@ -16,6 +16,6 @@ document.addEventListener('click', (event) => {
   if (targetEl.closest('.header-mobile-menu--contact-me') || targetEl.classList.contains('header-mobile-menu--contact-me')) return; 
   if (targetEl.closest('.contact-mobal__body') || targetEl.classList.contains('contact-mobal__body')) return; 
 
-  contactMobalEl.classList.remove('open');
+  contactMobalEl.classList.remove('is-open');
 
 })
