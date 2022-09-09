@@ -17,13 +17,15 @@
 }
 
 .post__downline-read-more {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
   text-align: right;
-  color: #107EFF;
   margin-left: auto;
   cursor: pointer;
+}
+
+.post__downline-read-more a {
+  font-size: 12px;
+  line-height: 16px;
+  color: #107EFF;
 }
 
 .post__downline-point {
@@ -52,7 +54,7 @@
 @media (max-width:420px) {
   .post__downline-read-more {
     margin-left: 0px;
-    padding-top: 15px;
+    padding-top: 0px;
   }
 }
 
