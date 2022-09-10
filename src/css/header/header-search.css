@@ -7,23 +7,15 @@
 }
 
 .header-search__text-input {
-  color:rgba(255, 255, 255, 0.4);
+  color:rgb(255, 255, 255);
   font-size: 12px;
   line-height: 14px;
   border: none !important;
   background-color: #cdd0d300;
   cursor: pointer;
   outline: none;
-  width: 70%;
-}
-
-.header-search__text-input:focus input:focus {
-  box-shadow: none ;
-}
-
-.contact-mobal__text-input input {
-  padding: 10px 20px ;
-  width: 90%;
+  padding: 10px 10px ;
+  width: 135%;
 }
 
 @media(max-width:750px) {
