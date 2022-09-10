@@ -9,4 +9,6 @@
 .post__photo-player {
   margin: auto;
   cursor: pointer;
+  background-color: rgba(245, 245, 220, 0);
+  border: none;
  }

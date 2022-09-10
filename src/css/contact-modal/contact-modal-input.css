@@ -1,0 +1,32 @@
+.contact-mobal__text-input {
+  color:rgb(255, 255, 255);
+  border: none;
+  background-color: #cdd0d300;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Roboto;
+  padding: 0px;
+  margin: 0 0 25px 0;
+}
+
+input[type=text], textarea {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 0;
+}
+
+input[type=text]:focus, textarea:focus {
+  box-shadow: 0 3px 5px -5px rgba(81, 203, 238, 1);
+  border-bottom: 1px solid rgba(81, 203, 238, 1);
+}
+
+input::-moz-placeholder { 
+  color: rgba(255, 255, 255, 0.2);
+ }
+
+input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+  padding: 5px 0 5px;
+}

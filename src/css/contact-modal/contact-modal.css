@@ -21,14 +21,12 @@
   flex-direction: column;
   background: rgba(32, 32, 32, 1);
   width: 500px;
-  height: 430px;
 }
 
 .contact-mobal__content {
   display: flex;
   flex-direction: column;
   width: 340px;
-  height: 150px;
   margin: 0 auto;
 }
 
@@ -37,10 +35,6 @@
   padding: 20px 20px 0 0;
   margin-left: auto;
   cursor: pointer;
-}
-
-.contact-mobal__name p {
-  color: rgb(255, 255, 255);
 }
 
 .contact-mobal__button {
@@ -54,7 +48,6 @@
   background-color: rgba(49, 55, 201, 1);
   border: none;
   box-shadow: 0px 4px 15px -7px rgba(48, 55, 201, 0.3);
-  margin-top: 25px;
   font-size: 12px;
   line-height: 14px;
   padding: 8px 15px;
@@ -67,6 +60,10 @@
   line-height: 16px;
   color: #B3B3B3;
   display: flex;
+}
+
+line {
+  text-decoration: underline;
 }
 
 .contact-mobal__text1 {
