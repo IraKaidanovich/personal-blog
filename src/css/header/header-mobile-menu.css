@@ -8,6 +8,7 @@
   margin-top: 40px;
   z-index: 1;
   transition: 0.5s left;
+  overflow: auto;
 }
 
 .header-mobile-menu.is-active {

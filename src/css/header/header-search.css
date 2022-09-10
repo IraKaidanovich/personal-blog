@@ -17,9 +17,13 @@
   width: 70%;
 }
 
-input[type=text]:focus, textarea:focus {
-  box-shadow: none !important ;
-  
+.header-search__text-input:focus input:focus {
+  box-shadow: none ;
+}
+
+.contact-mobal__text-input input {
+  padding: 10px 20px ;
+  width: 90%;
 }
 
 @media(max-width:750px) {

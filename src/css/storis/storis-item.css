@@ -1,6 +1,6 @@
 .storis__items {
   display: flex;
-  overflow: hidden;
+  overflow: auto;
   padding: 60px 0px 0px;
 }
 

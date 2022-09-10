@@ -20,3 +20,12 @@ a {
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+
+input::-moz-placeholder { 
+  color: rgba(255, 255, 255, 0.2);
+ }
+
+input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+  padding: 5px 0 5px;
+}

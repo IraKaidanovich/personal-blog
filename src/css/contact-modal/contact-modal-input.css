@@ -8,25 +8,18 @@
   font-size: 14px;
   line-height: 16px;
   font-family: Roboto;
-  padding: 0px;
   margin: 0 0 25px 0;
 }
 
-input[type=text], textarea {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 10px 0;
+.contact-mobal__text-input input {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important ;
+  padding: 10px 0px ;
 }
 
-input[type=text]:focus, textarea:focus {
-  box-shadow: 0 3px 5px -5px rgba(81, 203, 238, 1);
+.contact-mobal__text-input:focus input:focus {
+  box-shadow: 0 3px 5px -5px rgba(81, 203, 238, 1) ;
   border-bottom: 1px solid rgba(81, 203, 238, 1);
 }
 
-input::-moz-placeholder { 
-  color: rgba(255, 255, 255, 0.2);
- }
 
-input::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.2);
-  padding: 5px 0 5px;
-}
+
