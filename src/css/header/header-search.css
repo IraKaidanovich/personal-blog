@@ -10,11 +10,11 @@
   color:rgb(255, 255, 255);
   font-size: 12px;
   line-height: 14px;
-  border: none !important;
+  border: none ;
   background-color: #cdd0d300;
   cursor: pointer;
   outline: none;
-  padding: 10px 10px ;
+  padding: 10px 15px ;
   width: 135%;
 }
 
