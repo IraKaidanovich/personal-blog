@@ -10,13 +10,12 @@
   font-family: Roboto;
   margin: 0 0 25px 0;
 }
-
-.contact-mobal__text-input input {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important ;
+.contact-mobal__text-input {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) ;
   padding: 10px 0px ;
 }
 
-.contact-mobal__text-input:focus input:focus {
+.contact-mobal__text-input:focus  {
   box-shadow: 0 3px 5px -5px rgba(81, 203, 238, 1) ;
   border-bottom: 1px solid rgba(81, 203, 238, 1);
 }

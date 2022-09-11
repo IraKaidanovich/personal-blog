@@ -6,7 +6,8 @@
   height: 100px;
   overflow: hidden;
   position: absolute;
-  
+  top: 150px;
+  left: 95px;
 }
 
 .sidebar__avatar img {
