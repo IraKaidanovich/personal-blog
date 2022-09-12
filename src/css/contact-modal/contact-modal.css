@@ -1,6 +1,6 @@
 .contact-mobal.is-open {
   z-index: 2;
-  background-color: rgba(42, 43, 43, 0.574);
+  background-color: rgba(22, 24, 24, 0.903);
   width: 100%;
   height: 100%;
   position: fixed;
@@ -21,6 +21,7 @@
   flex-direction: column;
   background: rgba(32, 32, 32, 1);
   width: 500px;
+  margin-right: 20px;
 }
 
 .contact-mobal__content {
@@ -68,6 +69,12 @@ line {
 
 .contact-mobal__text1 {
   margin-right: 10px;
+}
+
+@media (max-width:400px) {
+  .contact-mobal__body {
+    margin-right: 10px;
+  }
 }
 
 @media (max-width:750px) {

@@ -15,7 +15,7 @@
   cursor: pointer;
   outline: none;
   padding: 10px 15px ;
-  width: 135%;
+  width: 125%;
 }
 
 @media(max-width:750px) {
