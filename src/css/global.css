@@ -29,3 +29,7 @@ input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.2);
   padding: 5px 0 5px;
 }
+
+input[type=file] {
+  display: none;
+}

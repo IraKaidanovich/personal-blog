@@ -2,17 +2,18 @@
   font-size: 14px;
   line-height: 16px;
   text-decoration-line: underline;
-  color: #107EFF;
   margin-top: 15px;
+  color: #107EFF;
   cursor: pointer;
 }
 
 .profile-content__photo-part {
   margin-top: 10px;
+  margin-left: 30px;
 }
 
 @media(max-width:450px) {
   .profile-content__photo-part {
-    margin-top: 60px;
+    margin: 100px 0 40px;
   }
 }
