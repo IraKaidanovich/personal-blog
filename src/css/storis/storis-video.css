@@ -14,12 +14,18 @@
 }
 
 .storis__video__item {
-  width: 80%;
+  width: 100%;
+  overflow: hidden;
   margin: 0 auto;
 }
 
  video {
-  width: 100%;
+  transform: translate(-15%, 0px);
 }
 
-
+.storis__video-content {
+  width: 55%;
+  border: solid #020202;
+  height: 90%;
+  overflow: hidden;
+}

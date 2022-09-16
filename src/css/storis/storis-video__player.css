@@ -1,15 +1,10 @@
-.storis__video-player-items {
-  display: flex;
-  margin: 0px 19px;
-  position: relative;
-  bottom: 45px;
+.storis__video__player {
+  position: absolute;
+  margin-top: -50px;
   cursor: pointer;
 }
 
-.storis__video__player {
-  margin-right: 28px ;
-}
-
-.storis__video__line img {
-  width: 100%;
+.fa-solid {
+  color: white;
+  font-size: 40px;
 }
